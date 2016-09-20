@@ -1,0 +1,120 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+  font-size: 0.8em;
+  background-image: url(img3/fundopagina.jpg);
+}
+ 
+ #site{
+  width: 770px;
+  background-image: url(img3/fundocontainer.gif);
+  background-repeat: repeat-y;
+  position: relative;
+  left:50%;
+  margin-left:-387px;
+  padding-right: 4px ;
+ }
+ #logo{
+  background-color: green;
+  margin-top: 20px;;
+  height: 68px;
+  background-image: url(img3/topo.jpg);
+ }
+ #logo h1 a{
+    display:block;
+    width: 191px;
+    height: 68px;
+    overflow: hidden;
+    background-image: url(img3/logo.jpg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-color: #FF1F00;
+    text-indent: 300px;;
+    margin-left:11px;
+    border-right:2px solid #fff; 
+    border-left:2px solid #fff; 
+ }
+ #menu{
+  display: none;
+ }
+ #conteudo{
+   float: right;
+   width:550px;
+   padding:0px 6px;
+ }
+ #conteudo h2{
+   color:#FF1F00;
+   border-bottom: 1px #FF1F00 solid;
+   text-align:right;
+   font-size: 1.2em;
+ }
+ .data{
+   font-size: 0.8em;
+ }
+ #conteudo a{
+   color: red;
+ }
+ #barraFerramenta{
+   width:183px;
+   margin:12px;
+   padding:4px;
+ }
+ #barraFerramenta h3{
+   color:#fff;
+   border-bottom: 2px solid #fff;
+   font-size: 1.2em;
+ }
+ #barraFerramenta fieldset{
+   border: none;
+ }
+ #barraFerramenta input{
+    width:100px;
+    border: 1px solid #fff;
+    
+ }
+ #barraFerramenta button{
+   width:70px;
+    border: 1px solid #fff;
+    background-color: #ff1f00;
+    color:#fff;
+    margin:1px 0px 0px 5px;
+ 
+ }
+ #barraFerramenta ul {
+   margin:0px;
+   padding:0px;
+ 
+ }
+ #barraFerramenta li {
+   
+   list-style-type: none;
+   margin-left:   10px;
+   padding-left:10px;
+   background-image: url(img3/bullet.jpg);
+   background-repeat: no-repeat;
+   background-position:2px 6px ;
+ }
+ #barraFerramenta li a{
+    color:#fff;
+    text-decoration: none;
+ }
+ #copyRight{
+   background-image: url(img3/rodape.jpg);
+   background-repeat: no-repeat;
+   width: 770px;
+   height: 33px;
+   overflow: hidden;
+   text-indent: 800px;;
+   white-space: pre;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

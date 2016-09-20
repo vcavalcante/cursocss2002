@@ -1,0 +1,129 @@
+body{
+  background-image: url(img1/fundo.gif);
+  font-family: verdana;
+  font-size: 10pt;
+  margin:0px;
+  padding:0px;
+}
+div#site{
+  width:770px;
+  position:relative;
+  left:50%;
+  margin-left:-385px;
+  background-color: #cbdaff;
+  float: left;
+}
+div#logo{
+  width:100%;
+  height:80px;
+  background-image: url(img1/topo.gif);
+}
+div#logo h1{
+  margin:0px;
+  padding:0px;
+}
+div#logo h1 a{
+  display: block;
+  width:138px;
+  height:65px;
+  text-indent: 150px;
+  white-space: pre;
+  overflow: hidden;
+  background-image: url(img1/logo.gif);
+  background-repeat: no-repeat;
+  background-position: 10px  6px;
+  padding:7px 0px 0px 15px;
+}
+div#menu{
+  width:100%;
+ 
+  background-image: url(img1/fundomenu.gif);
+  height: 29px;
+}
+div#menu ul{
+  margin:0px; 
+  padding:0px;
+  float:right;
+}
+div#menu ul li{
+  list-style-type: none;
+  float:left;
+
+}
+div#menu ul li a{
+  display:block;
+  padding:5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+div#menu ul li a:hover{
+  background-image: url(img1/fundomenuclaro.gif);
+}
+div#conteudo{
+  width:555px;
+  background-color: #ffffff;
+  float:left;
+   margin:5px 5px 5px 7px;
+   
+}
+div#conteudo h2{
+  background-color: #116ad2;
+  color:#ffffff;
+  margin-top:8px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+div#conteudo p.data{
+  font-size:8pt;
+}
+div#conteudo p{
+  margin-left:7px;
+  margin-right:7px;
+}
+div#barraFerramenta{
+  width:190px;
+  background-color: #116ad2;
+  float: left;
+  margin:5px 7px 5px 3px;
+}
+div#barraFerramenta h3{
+  background-color: #ffffff;
+  color:#116ad2;
+  margin-top:8px;
+  font-size: 11pt;
+  font-weight: bold;
+}
+div#barraFerramenta fieldset{
+  border:none;
+}
+div#barraFerramenta fieldset input{
+  width:90px;
+  margin-right:5px;
+}
+div#barraFerramenta fieldset button{
+  border:1px solid #116ad2;
+  background-color: white;
+  color:#116ad2;
+}
+div#barraFerramenta ul li {
+  list-style-image: url(img1/bullet.gif);
+}
+div#barraFerramenta ul li a{
+  color:#FFFFFF;
+}
+
+div#copyRight{
+  width:100%;
+  background-image: url(img1/fundorodape.jpg);
+  float:left;
+  height: 24px;;
+  
+}
+div#copyRight p{
+  margin:4px 4px 0px 0px;
+  text-align:right;
+  color:white;
+  font-size:8pt;
+  
+}
